@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ledger</title>
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One|Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ec9bfe08cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+        <nav id="navbar">
+                <h1><i class="fas fa-book-reader to-green"></i><a href="#"><span class="to-green">Edge</span>Ledger</a></h1>
+                <ul>
+                    <li><a href="#showcase">Home</a></li>
+                    <li><a href="#what">What</a></li>
+                    <li><a href="#who">Who</a></li>
+                    <li><a href="#form-map">Contact</a></li>
+                </ul>
+            </nav>
+    <header id="showcase">
+        <div class="showcase-content">
+                <h1>The Sky Is The Limit</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     <a href="#what" class="btn">Read More</a>
+        </div>
+        
+    </header>
+
+
+    <section id="what">
+        <h2><span class="to-green">What</span> We Do</h2>
+        <div class="icons-section">
+            <div>
+                <h3>Tax & Custodial</h3>
+                <p><i class="fas fa-pencil-alt fa-2x icon"></i>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            </div>
+            <div>
+                <h3>Investment Banking</h3>
+                <p><i class="fas fa-university fa-2x icon"></i>Ut enim ad minim veniam, quis nostrud exercitation</p>
+            </div>
+            <div>
+                <h3>Portfolio Management</h3>
+                <p><i class="fas fa-eye fa-2x icon"></i>Duis aute irure dolor in reprehenderit in voluptate </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="who">
+        <div class="who-text">
+            <h3><span class="to-green">Who</span> We Are</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4>Our Team</h4>
+            <ul>
+                    <li>Mark:CEO</li>
+                    <li>Shannon:CEO</li>
+                    <li>John:CFO</li>
+                    <li>Janet:Lead something</li>
+                    <li>Kara:Senior whatever</li>
+            </ul>
+            
+        </div>
+        <div class="who-img"></div>
+    </section>
+
+    <section id="clients">
+            <h3><span class="to-green">Our</span> Clients</h3>
+            <ul class="logos">
+                <li><img src="./images/logos/logo1.png" alt=""></li>
+                <li><img src="./images/logos/logo2.png" alt=""></li>
+                <li><img src="./images/logos/logo3.png" alt=""></li>
+                <li><img src="./images/logos/logo4.png" alt=""></li>
+                <li><img src="./images/logos/logo5.png" alt=""></li>
+            </ul>
+    </section>
+
+    <section id="form-map">
+        <div class="form">
+            <h2>Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+            <form action="">
+                <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone" placeholder="Enter your Phone number">
+                </div>
+                <div class="form-group">
+                        <label for="name">Message</label>
+                        <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                </div>
+                
+                <input class="btn" type="submit" name="Submit" value="Submit">
+                
+                
+            </form>
+        </div>
+
+        <div class="map"></div>
+
+    </section>
+
+    <footer>
+        <p>Copyright&copy;2019,Something, Aez</p>
+    </footer>
+
+    <script src="hit.js"></script>
+
+    <!-- JQuery CDN -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsUYSWHFFV_U7gWIDGkEB9dwWHHgsLYj0&callback=initMap"
+    async defer></script>
+</body>
+</html>

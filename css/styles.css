@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.to-green{
+    color: #91bd3a;
+    }
+
+
+    /* NAVBAR */
+
+ nav{
+    display: flex;
+    background-color: #232020;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+nav h1{
+    flex: 3;
+
+}
+
+ nav h1 a{
+    color: #fff;
+    font-size: 1.6rem;
+    padding-left: 10px;
+    font-family: 'Lilita One', cursive;
+}
+
+
+
+ nav ul{
+    display: flex;
+    list-style: none;
+    flex :1;
+}
+
+nav ul li a{
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0rem 0.25rem;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+
+ nav ul li a:hover{
+    background-color: #91bd3a;
+    color: #232020;
+    border-radius: 0.20rem;
+}
+
+
+/* SHOW CASE */
+
+#showcase{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/showcase.jpg) center center/cover;
+    background-repeat: no-repeat;
+    color: #e5dfdf;
+    height:  100vh;
+}
+
+ #showcase .showcase-content{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     padding: 0 2rem;
+ }
+
+ #showcase .showcase-content h1{
+     font-size: 4rem;
+     margin-bottom: 1rem;
+     line-height: 1.1;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ #showcase .showcase-content p{
+     font-size: 1.2rem;
+     margin-top: 1rem;
+     line-height: 1.1;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ #showcase .showcase-content a{
+     color: #e5dfdf;
+     background-color: #91bd3a;
+     margin-top: 2.3rem;
+     padding: 0.7rem 1.6rem;
+     border-radius: 0.5rem;
+     font-size: 1rem;
+
+ }
+
+ #showcase .showcase-content a:hover{
+     background-color: #232020;
+     color: #91bd3a;
+     font-family: 'Roboto', sans-serif;
+ }
+
+
+ /* What SECTION */
+
+ #what{
+     background-color: #e5dfdf;
+     text-align: center;
+     padding: 3rem 1rem;
+ }
+
+ #what h2{
+     font-size: 2rem;
+     font-family: 'Roboto', sans-serif;
+     margin-bottom: 1.5rem;
+ }
+
+ #what .icons-section{
+     display: flex;
+     justify-content: center;
+     font-family: 'Roboto', sans-serif;
+     padding: 1rem 2rem;
+ }
+
+ #what .icons-section .icon{
+     background-color: #91bd3a;
+     border-radius: 50%;
+     padding: 1rem;
+     margin: 0.5rem;
+ }
+
+ /* WHO SECTION */
+
+ #who{
+     display: flex;
+ }
+
+ #who .who-text{
+     padding: 2.5rem;
+     background-color: #232020;
+     order: 2;
+     color: #e5dfdf;
+     flex: 1;
+     font-family: 'Roboto', sans-serif;
+     line-height: 1.5;
+ }
+
+ #who .who-text h3{
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+ #who .who-img{
+     flex: 1;
+     background: url("..//images/people.jpg") no-repeat center center/cover;
+ }
+ 
+ 
+ /* Clients */
+
+ #clients{
+     background-color: #e5dfdf;
+     padding: 3rem 1.5rem;
+     text-align: center;
+ }
+
+ #clients h3{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+ }
+
+ #clients .logos{
+     display: flex;
+     justify-content: center;
+ }
+
+ #clients .logos img{
+     display: block;
+     width: 50%;
+     margin: auto;
+ }
+
+ /* Form-map */
+#form-map{
+    color: #fff;
+    display: flex;
+}
+
+#form-map .form{
+    padding: 2rem 1.5rem;
+    background-color: #91bd3a;
+}
+
+#form-map .form, #form-map .map{
+    flex: 1;
+}
+
+#form-map .form .form-group{
+    margin: 0.8rem;
+
+}
+
+#form-map .form .form-group label{
+    display: block;
+}
+
+#form-map .form .form-group input,textarea{
+    width: 100%;
+    padding: 1rem;
+}
+
+
+#form-map .btn{
+    color: #e5dfdf;
+    background-color: #232020;
+    padding: 0.5rem;
+    width:100%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#form-map .btn:hover{
+    color: #91bd3a;
+}
+
+
+ /* footer */
+
+ footer{
+    background-color: #232020;
+    padding: 1.3rem;
+    text-align: center;
+    color: #e5dfdf;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+ }
