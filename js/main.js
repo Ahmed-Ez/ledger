@@ -1,26 +1,15 @@
 // Initialize and add the map
 
 
-// function initMap() {
-//   // Your location
-//   const loc = { lat: 36.280388, lng: --95.845398 };
-//   // Centered map on location
-//   const map = new google.maps.Map(document.querySelector('.map'), {
-//     zoom: 14,
-//     center: loc
-//   });
-//   // The marker, positioned at location
-//   const marker = new google.maps.Marker({ position: loc, map: map });
-// }
 
-// // Sticky menu background
-// window.addEventListener('scroll', function() {
-//   if (window.scrollY > 150) {
-//     document.querySelector('#navbar').style.opacity = 0.9;
-//   } else {
-//     document.querySelector('#navbar').style.opacity = 1;
-//   }
-// });
+// Sticky menu background
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 150) {
+    document.querySelector('#navbar').style.opacity = 0.9;
+  } else {
+    document.querySelector('#navbar').style.opacity = 1;
+  }
+});
 
 
 // Smooth Scrolling

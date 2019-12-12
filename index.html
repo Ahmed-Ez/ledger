@@ -114,7 +114,6 @@
         <p>Copyright&copy;2019,Something, Aez</p>
     </footer>
 
-    <script src="hit.js"></script>
 
     <!-- JQuery CDN -->
   <script
@@ -123,6 +122,19 @@
   crossorigin="anonymous"></script>
     
     <script src="js/main.js"></script>
+    <script>
+        function initMap() {
+  // Your location
+  const loc = { lat: 36.280388, lng: 95.845398 };
+  // Centered map on location
+  const map = new google.maps.Map(document.querySelector('.map'), {
+    zoom: 14,
+    center: loc
+  });
+  // The marker, positioned at location
+  const marker = new google.maps.Marker({ position: loc, map: map });
+}
+    </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsUYSWHFFV_U7gWIDGkEB9dwWHHgsLYj0&callback=initMap"
     async defer></script>
 </body>
